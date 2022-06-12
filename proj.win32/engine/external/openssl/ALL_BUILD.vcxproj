@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5B4D3DCB-9E9F-3C0F-A5F1-00E9C4972073}</ProjectGuid>
+    <ProjectGuid>{EBE64CBA-62D5-3755-ACB6-ACF6F7CD346B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>Win32</Platform>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\external\openssl\CMakeLists.txt">
+    <CustomBuild Include="D:\SVN\src\Simple-Fruit-Ninja\cocos2d\external\openssl\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/cocos2d/external/openssl/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/SVN/src/Simple-Fruit-Ninja/cocos2d/external/openssl/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4 -BE:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/proj.win32 --check-stamp-file E:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/proj.win32/engine/external/openssl/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/SVN/src/Simple-Fruit-Ninja -BD:/SVN/src/Simple-Fruit-Ninja/proj.win32 --check-stamp-file D:/SVN/src/Simple-Fruit-Ninja/proj.win32/engine/external/openssl/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\external\cmake\CocosExternalConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\engine\external\openssl\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\SVN\src\Simple-Fruit-Ninja\cocos2d\external\cmake\CocosExternalConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\SVN\src\Simple-Fruit-Ninja\proj.win32\engine\external\openssl\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/cocos2d/external/openssl/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/SVN/src/Simple-Fruit-Ninja/cocos2d/external/openssl/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4 -BE:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/proj.win32 --check-stamp-file E:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/proj.win32/engine/external/openssl/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/SVN/src/Simple-Fruit-Ninja -BD:/SVN/src/Simple-Fruit-Ninja/proj.win32 --check-stamp-file D:/SVN/src/Simple-Fruit-Ninja/proj.win32/engine/external/openssl/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\external\cmake\CocosExternalConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\engine\external\openssl\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\SVN\src\Simple-Fruit-Ninja\cocos2d\external\cmake\CocosExternalConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\SVN\src\Simple-Fruit-Ninja\proj.win32\engine\external\openssl\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/cocos2d/external/openssl/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/SVN/src/Simple-Fruit-Ninja/cocos2d/external/openssl/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4 -BE:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/proj.win32 --check-stamp-file E:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/proj.win32/engine/external/openssl/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/SVN/src/Simple-Fruit-Ninja -BD:/SVN/src/Simple-Fruit-Ninja/proj.win32 --check-stamp-file D:/SVN/src/Simple-Fruit-Ninja/proj.win32/engine/external/openssl/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\external\cmake\CocosExternalConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\engine\external\openssl\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\SVN\src\Simple-Fruit-Ninja\cocos2d\external\cmake\CocosExternalConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\SVN\src\Simple-Fruit-Ninja\proj.win32\engine\external\openssl\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/cocos2d/external/openssl/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/SVN/src/Simple-Fruit-Ninja/cocos2d/external/openssl/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4 -BE:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/proj.win32 --check-stamp-file E:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/proj.win32/engine/external/openssl/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/SVN/src/Simple-Fruit-Ninja -BD:/SVN/src/Simple-Fruit-Ninja/proj.win32 --check-stamp-file D:/SVN/src/Simple-Fruit-Ninja/proj.win32/engine/external/openssl/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,16 +159,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\external\cmake\CocosExternalConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\engine\external\openssl\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\SVN\src\Simple-Fruit-Ninja\cocos2d\external\cmake\CocosExternalConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\SVN\src\Simple-Fruit-Ninja\proj.win32\engine\external\openssl\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\ZERO_CHECK.vcxproj">
-      <Project>{328EEAD2-D5C0-3021-9008-EE9D980DBBFB}</Project>
+    <ProjectReference Include="D:\SVN\src\Simple-Fruit-Ninja\proj.win32\ZERO_CHECK.vcxproj">
+      <Project>{4A01373F-C56F-3B38-8E8A-99B68CDF7988}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

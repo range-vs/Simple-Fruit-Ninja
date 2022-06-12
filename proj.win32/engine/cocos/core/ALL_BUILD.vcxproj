@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5B4D3DCB-9E9F-3C0F-A5F1-00E9C4972073}</ProjectGuid>
+    <ProjectGuid>{EBE64CBA-62D5-3755-ACB6-ACF6F7CD346B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>Win32</Platform>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\CMakeLists.txt">
+    <CustomBuild Include="D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/cocos2d/cocos/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/SVN/src/Simple-Fruit-Ninja/cocos2d/cocos/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4 -BE:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/proj.win32 --check-stamp-file E:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/SVN/src/Simple-Fruit-Ninja -BD:/SVN/src/Simple-Fruit-Ninja/proj.win32 --check-stamp-file D:/SVN/src/Simple-Fruit-Ninja/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\2d\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\3d\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\audio\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\base\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\math\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\navmesh\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\network\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\physics\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\physics3d\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\platform\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\renderer\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\ui\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\2d\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\3d\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\audio\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\base\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\math\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\navmesh\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\network\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\physics\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\physics3d\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\platform\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\renderer\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\ui\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\SVN\src\Simple-Fruit-Ninja\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/cocos2d/cocos/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/SVN/src/Simple-Fruit-Ninja/cocos2d/cocos/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4 -BE:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/proj.win32 --check-stamp-file E:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/SVN/src/Simple-Fruit-Ninja -BD:/SVN/src/Simple-Fruit-Ninja/proj.win32 --check-stamp-file D:/SVN/src/Simple-Fruit-Ninja/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\2d\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\3d\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\audio\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\base\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\math\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\navmesh\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\network\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\physics\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\physics3d\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\platform\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\renderer\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\ui\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\2d\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\3d\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\audio\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\base\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\math\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\navmesh\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\network\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\physics\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\physics3d\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\platform\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\renderer\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\ui\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\SVN\src\Simple-Fruit-Ninja\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/cocos2d/cocos/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/SVN/src/Simple-Fruit-Ninja/cocos2d/cocos/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4 -BE:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/proj.win32 --check-stamp-file E:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/SVN/src/Simple-Fruit-Ninja -BD:/SVN/src/Simple-Fruit-Ninja/proj.win32 --check-stamp-file D:/SVN/src/Simple-Fruit-Ninja/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\2d\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\3d\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\audio\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\base\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\math\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\navmesh\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\network\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\physics\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\physics3d\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\platform\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\renderer\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\ui\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\2d\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\3d\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\audio\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\base\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\math\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\navmesh\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\network\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\physics\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\physics3d\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\platform\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\renderer\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\ui\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\SVN\src\Simple-Fruit-Ninja\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/cocos2d/cocos/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/SVN/src/Simple-Fruit-Ninja/cocos2d/cocos/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4 -BE:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/proj.win32 --check-stamp-file E:/Yandex.Disk/YandexDisk/programming/cocos2dx/testgame4/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/SVN/src/Simple-Fruit-Ninja -BD:/SVN/src/Simple-Fruit-Ninja/proj.win32 --check-stamp-file D:/SVN/src/Simple-Fruit-Ninja/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,66 +159,66 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\2d\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\3d\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\audio\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\base\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\math\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\navmesh\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\network\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\physics\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\physics3d\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\platform\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\renderer\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\ui\CMakeLists.txt;E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\2d\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\3d\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\audio\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\base\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\math\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\navmesh\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\network\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\physics\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\physics3d\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\platform\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\renderer\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\cocos\ui\CMakeLists.txt;D:\SVN\src\Simple-Fruit-Ninja\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\SVN\src\Simple-Fruit-Ninja\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\ZERO_CHECK.vcxproj">
-      <Project>{328EEAD2-D5C0-3021-9008-EE9D980DBBFB}</Project>
+    <ProjectReference Include="D:\SVN\src\Simple-Fruit-Ninja\proj.win32\ZERO_CHECK.vcxproj">
+      <Project>{4A01373F-C56F-3B38-8E8A-99B68CDF7988}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\engine\cocos\core\cocos2d.vcxproj">
-      <Project>{4DD28F1B-EE21-3A92-BD3C-9CC4827D156B}</Project>
+    <ProjectReference Include="D:\SVN\src\Simple-Fruit-Ninja\proj.win32\engine\cocos\core\cocos2d.vcxproj">
+      <Project>{2557672F-6F57-3ADA-87C2-BB91FF6B54F4}</Project>
       <Name>cocos2d</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\engine\external\clipper\ext_clipper.vcxproj">
-      <Project>{87A2CCA9-F9AC-3EB6-8974-D658DD6BC248}</Project>
+    <ProjectReference Include="D:\SVN\src\Simple-Fruit-Ninja\proj.win32\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{C346EFAA-7047-3565-8AC9-4C03D7A1F379}</Project>
       <Name>ext_clipper</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
-      <Project>{91DEBB6D-999B-32DC-A80E-2AF45410E8EC}</Project>
+    <ProjectReference Include="D:\SVN\src\Simple-Fruit-Ninja\proj.win32\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{61D5E20F-BF3A-38AD-A10F-F2E84D6000B1}</Project>
       <Name>ext_convertUTF</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
-      <Project>{0EDCABB9-01F3-3184-82BB-A660567D1226}</Project>
+    <ProjectReference Include="D:\SVN\src\Simple-Fruit-Ninja\proj.win32\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{BDC79788-8127-3DEE-B4D4-BCF124FAF872}</Project>
       <Name>ext_edtaa3func</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\engine\external\md5\ext_md5.vcxproj">
-      <Project>{5C1ADB92-32CC-3401-B0BE-E11291A889AF}</Project>
+    <ProjectReference Include="D:\SVN\src\Simple-Fruit-Ninja\proj.win32\engine\external\md5\ext_md5.vcxproj">
+      <Project>{3AB1C122-28D5-3373-9369-9E7551401E45}</Project>
       <Name>ext_md5</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\engine\external\poly2tri\ext_poly2tri.vcxproj">
-      <Project>{24E3074F-2724-3F56-B474-579EFDBFF886}</Project>
+    <ProjectReference Include="D:\SVN\src\Simple-Fruit-Ninja\proj.win32\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{F6FB69A0-300B-3242-A56F-13414C60ACA3}</Project>
       <Name>ext_poly2tri</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\engine\external\recast\ext_recast.vcxproj">
-      <Project>{48CD7355-71F5-33AA-87AD-1EE0EB838F6C}</Project>
+    <ProjectReference Include="D:\SVN\src\Simple-Fruit-Ninja\proj.win32\engine\external\recast\ext_recast.vcxproj">
+      <Project>{7C7FDBF4-E8AE-3BC6-BCE1-45C914FA46ED}</Project>
       <Name>ext_recast</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
-      <Project>{8EB804EF-3BF7-34C1-8B5E-C947DD237664}</Project>
+    <ProjectReference Include="D:\SVN\src\Simple-Fruit-Ninja\proj.win32\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{28C69947-C866-31FE-9C67-59C19F00FFA4}</Project>
       <Name>ext_tinyxml2</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\engine\external\unzip\ext_unzip.vcxproj">
-      <Project>{2166E51B-7275-3F1E-BD07-2142481FE360}</Project>
+    <ProjectReference Include="D:\SVN\src\Simple-Fruit-Ninja\proj.win32\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{344F26CE-404A-32FC-838C-352A6FA5B860}</Project>
       <Name>ext_unzip</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\engine\external\xxhash\ext_xxhash.vcxproj">
-      <Project>{692810BC-8A7F-334C-8B43-313C83C4688B}</Project>
+    <ProjectReference Include="D:\SVN\src\Simple-Fruit-Ninja\proj.win32\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{B2F7BB3A-B2BF-3271-8DA8-B05B782D52A1}</Project>
       <Name>ext_xxhash</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\engine\external\xxtea\ext_xxtea.vcxproj">
-      <Project>{327736B0-0778-32CC-9E9A-D432BBC948F1}</Project>
+    <ProjectReference Include="D:\SVN\src\Simple-Fruit-Ninja\proj.win32\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{0B785572-C618-373D-BE89-22C2FE480A52}</Project>
       <Name>ext_xxtea</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\engine\external\external.vcxproj">
-      <Project>{CCE5E384-D479-3E1A-83D2-C2E418B604BC}</Project>
+    <ProjectReference Include="D:\SVN\src\Simple-Fruit-Ninja\proj.win32\engine\external\external.vcxproj">
+      <Project>{A349C193-CCE3-35D0-8799-7A4FAE4826E3}</Project>
       <Name>external</Name>
     </ProjectReference>
   </ItemGroup>
