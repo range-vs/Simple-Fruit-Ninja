@@ -605,3 +605,7 @@ proj.win32/Win32/Debug/ZERO_CHECK/ZERO_CHECK.recipe
 proj.win32/Win32/Debug/ZERO_CHECK/ZERO_CHECK.vcxproj.FileListAbsolute.txt
 proj.win32/ZERO_CHECK.vcxproj
 proj.win32/ZERO_CHECK.vcxproj.filters
+proj.win32/testgame4.dir/Debug/testgame4.exe.recipe
+proj.win32/testgame4.dir/Debug/_IsIncrementalBuild
+proj.win32/Debug/testgame4.lib
+proj.win32/Debug/testgame4.exp
