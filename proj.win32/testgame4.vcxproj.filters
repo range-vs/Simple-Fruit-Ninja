@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\Classes\HelloWorldScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\cocos2d\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\Classes\HelloWorldScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\Resources\CloseNormal.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\Resources\CloseSelected.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\Resources\HelloWorld.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\Resources\res\.gitkeep">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\Yandex.Disk\YandexDisk\programming\cocos2dx\testgame4\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{3AE62534-3D98-3DC7-8478-CD6FD8D6BB38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{20A8CC94-C577-3D03-ABBC-9577936AF297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{2DB31B71-EF14-3788-BD83-C869E35C07DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{75B5F719-5B96-3880-AEDA-9E4948D3A92F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{15EB1DC0-B8DD-3094-9173-A066A87EE95B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{BAF090E0-798D-3573-8FF5-EEF9237736D1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
