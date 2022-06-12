@@ -11,6 +11,7 @@
 *.sln.docstates
 .cxx
 .idea
+*.cmake
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
