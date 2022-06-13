@@ -36,28 +36,96 @@ bool HelloWorld::init()
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
 
     auto pathApple = std::filesystem::weakly_canonical(std::filesystem::path("fruits") / std::filesystem::path("apple.png")).string();
-    auto sprite = Sprite::create(pathApple);
-    if (sprite == nullptr)
+    apple = Sprite::create(pathApple);
+    if (apple == nullptr)
     {
         //problemLoading("'apple.png'");
     }
     else
     {
         // position the sprite on the center of the screen
-        sprite->setAnchorPoint(cocos2d::Vec2(0, 1));
-        sprite->setPosition(cocos2d::Vec2(origin.x + 10,
+        apple->setAnchorPoint(cocos2d::Vec2(0, 1));
+        apple->setPosition(cocos2d::Vec2(origin.x + 10,
             origin.y + visibleSize.height - 10));
-        sprite->setContentSize(Size(100, 100));
+        apple->setContentSize(Size(100, 100));
 
         // add the sprite as a child to this layer
-        this->addChild(sprite, 0);
+        this->addChild(apple, 0);
     }
 
+    auto touchListener = EventListenerTouchOneByOne::create();
+    touchListener->onTouchBegan = [this](Touch* _touch, Event* _event) -> bool {
+        std::ostringstream oss;
+        auto pos = _touch->getLocation();
+        oss << "Mouse pos: " << pos.x << ":" << pos.y << std::endl;
+        std::istringstream iss(oss.str());
+        iss >> std::noskipws;
+        VisualStudioOstream vsOstream;
+        std::copy(std::istream_iterator<char>(iss), std::istream_iterator<char>(), VisualStudioOstreamIterator<char>(vsOstream));
+        return true;
+    };
+    _eventDispatcher->addEventListenerWithSceneGraphPriority(touchListener, this);
 
+	auto touchListenerApple = EventListenerTouchOneByOne::create();
+	touchListenerApple->onTouchBegan = [this](Touch* _touch, Event* _event) -> bool {
+		auto bounds = _event->getCurrentTarget()->getBoundingBox();
+		auto pos = (_touch->getLocation());
+		if (!bounds.containsPoint(pos))
+			return false;
+		pos = this->convertToWorldSpace(pos);
+        std::ostringstream oss;
+        oss << "Mouse pos: " << pos.x << ":" << pos.y << std::endl << "Is Apple!" << std::endl;;
+        std::istringstream iss(oss.str());
+        iss >> std::noskipws;
+        VisualStudioOstream vsOstream;
+        std::copy(std::istream_iterator<char>(iss), std::istream_iterator<char>(), VisualStudioOstreamIterator<char>(vsOstream));
+        return true;
+    };
+    _eventDispatcher->addEventListenerWithSceneGraphPriority(touchListenerApple, apple);
+
+    this->scheduleUpdate();
     return true;
 }
 
-// движение спрайтов из разных мест рандомом и скоростью и количеством - туду
-// клик по одному спрайту - ок, вне - крестик
-// лейбл со счетчиком очков и промахов
-// 
+void HelloWorld::update(float deltaTime)
+{
+    Layer::update(deltaTime);
+    auto oldPos = apple->getPosition();
+    apple->setPosition(oldPos.x + (150 * deltaTime), oldPos.y);
+}
+
+VisualStudioOstream& VisualStudioOstream::operator<<(int val)
+{
+    _OutputDebugString(val);
+    return *this;
+}
+
+VisualStudioOstream& VisualStudioOstream::operator<<(std::string& val)
+{
+    _OutputDebugString(val);
+    return *this;
+}
+
+VisualStudioOstream& VisualStudioOstream::operator<<(char val)
+{
+    _OutputDebugString(val);
+    return *this;
+}
+
+VisualStudioOstream& VisualStudioOstream::operator<<(char* val)
+{
+    _OutputDebugString(val);
+    return *this;
+}
+
+void VisualStudioOstream::_outputDebugString(const char* text)
+{
+    OutputDebugStringA(text);
+}
+
+// клик по спрайту - спрайт исчезает, появляется ок на 3 секунды и плавно исчезает; вне спрайта - спрайт исчезает, появляется крестик на 3 секунды и плавно исчезает
+// лейбл со счетчиком очков и промахов (клики по спрайтам и промахи)
+// рандомный выбор стороны, откуда едут спрайты
+// набор количества спрайтов, набор скорости
+// рандомный выбор фигуры по C++ 17 
+
