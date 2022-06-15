@@ -3,6 +3,8 @@
 #include "cocos2d.h"
 #include <ui/UIScrollView.h>
 
+class CrossSprite;
+
 class HelloWorld : public cocos2d::Layer
 {
 public:
@@ -18,6 +20,9 @@ public:
 
 private:
     cocos2d::Sprite* apple{nullptr};
+    std::vector<cocos2d::Sprite*> cross;
+
+    cocos2d::Sprite* createCross(const cocos2d::Vec2& pos, const cocos2d::Vec2& origin);
 };
 
 class VisualStudioOstream
